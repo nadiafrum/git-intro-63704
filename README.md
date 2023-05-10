@@ -66,3 +66,18 @@ git diff
 Este archivo me sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio (LR). normalmente va sobre la raiz del proyecto
 
 Necesito crear el archivo **.gitignore**
+
+## Si quiero seguir una carpeta vacia
+tengo que crear un archivo con el nombre **gitkeep** porque git no versiona carpetas vacias
+
+```sh
+touch images/.gitkeep
+```
+
+
+## Para subir el repositorio local al remoto
+
+1. tengo que crear un repositorio remoto
+2. seguir las instrucciobnes que correspondan para el caso
+3. Agrego la url del remoto a mi repo local
+4. Hago el push
