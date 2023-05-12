@@ -81,3 +81,30 @@ touch images/.gitkeep
 2. seguir las instrucciobnes que correspondan para el caso
 3. Agrego la url del remoto a mi repo local
 4. Hago el push
+
+
+# Clase 16
+
+## Git Ramas (Branches)
+
+### Crear una rama en el repo
+
+```sh
+git branch <nombre-que-quiero-que-tenga-la-rama>
+```
+### Verificar las ramas que tengo
+
+```sh
+git branch
+
+```
+
+### Cambiar entre ramas
+
+```sh
+git switch <nombre rama>
+
+```
+
+
+
